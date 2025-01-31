@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <FileVersion>0.1.0</FileVersion>
+        <AssemblyVersion>0.1.0</AssemblyVersion>
+        <Version>0.1.0</Version>
+        <Title>HelpingHands</Title>
+        <Description>HelpingHands</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="AsyncHands.fs" />
+        <Compile Include="ExtendedHands\StringHands.fs" />
+        <Compile Include="ExtendedHands\GuidHands.fs" />
+        <Compile Include="ExtendedHands\SeqHands.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FSharp.Json" Version="0.4.1" />
+    </ItemGroup>
+
+</Project>
